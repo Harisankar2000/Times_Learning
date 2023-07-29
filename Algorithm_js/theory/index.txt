@@ -1,0 +1,38 @@
+An algorithm is a step-by-step procedure or a set of rules for solving a specific problem or completing a particular task. It is essentially a well-defined sequence of instructions designed to be executed by a computer or followed by a human to achieve a desired outcome. Algorithms are fundamental to computer science and are used in various fields to solve complex problems efficiently and systematically.
+
+Time Complexity : Amount of time taken by algorithm to run, as a function or input size.
+Space Complexity: Amount of space taken by algorithm to run, as a function or input size.
+
+Big O Notation: 
+
+Big O notation, often denoted as O(), is a mathematical notation used to describe the upper bound or worst-case behavior of an algorithm's time or space complexity. It helps us understand how the performance of an algorithm scales with the size of the input. Big O notation simplifies the analysis of algorithms by focusing on their growth rates rather than exact measurements, making it easier to compare and reason about different algorithms.
+
+In Big O notation, we express the time or space complexity as a function of the input size 'n'. The notation O(f(n)) represents an upper bound on the growth rate of the algorithm, meaning the actual performance won't exceed this function as the input size increases.
+
+There are several common types of Big O notation, each representing different growth rates:
+
+O(1) - Constant Time:
+An algorithm with constant time complexity executes in the same amount of time regardless of the input size. It performs a fixed number of operations, making it the most efficient type. Examples of O(1) algorithms include accessing an element in an array by index, basic arithmetic operations, or checking a single condition.
+
+O(log n) - Logarithmic Time:
+Logarithmic time complexity occurs when the algorithm's performance grows logarithmically with the input size. Algorithms with this complexity are quite efficient. They frequently divide the input into smaller chunks and discard a portion of it in each step. Binary search in a sorted list is a classic example of an O(log n) algorithm.
+
+O(n) - Linear Time:
+Linear time complexity means that the algorithm's running time grows linearly with the input size. It performs an operation on each element of the input once. Examples include linear search through an unsorted list or iterating through an array.
+
+O(n log n) - Linearithmic Time:
+Linearithmic time complexity arises in algorithms that combine linear and logarithmic behaviors. Sorting algorithms like Merge Sort and Quick Sort often fall into this category.
+
+O(n^2) - Quadratic Time:
+Quadratic time complexity represents an algorithm whose running time grows quadratically with the input size. It usually involves nested loops or operations that depend on two input elements. Examples include Bubble Sort and Selection Sort.
+
+O(2^n) - Exponential Time:
+Exponential time complexity indicates an algorithm whose running time doubles with each addition to the input size. These algorithms quickly become impractical for larger inputs. The classic example is the recursive implementation of the Fibonacci sequence.
+
+O(n!) - Factorial Time:
+Factorial time complexity is the most inefficient type, where the running time grows as the factorial of the input size. This occurs when an algorithm generates all possible permutations or combinations of the input elements.
+
+In general, algorithms with lower-order complexities (e.g., O(1), O(log n), O(n)) are more desirable as they are more efficient and scalable for larger inputs. However, the choice of algorithm depends on the specific problem and the trade-offs between time and space complexity.
+
+
+
